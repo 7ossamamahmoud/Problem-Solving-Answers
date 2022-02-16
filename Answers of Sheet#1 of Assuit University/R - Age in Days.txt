@@ -1,0 +1,18 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main() {
+	int N ,y,m,d ;
+	cin >> N;
+	y = N / 365;
+	cout << y << " years" << endl;
+	N -= 365*y;
+	m = N / 30;
+	cout << m << " months" << endl;
+	N -= 30*m;
+	d = N;
+	cout << d << " days";
+ 
+	
+	return 0;
+}
